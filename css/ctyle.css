@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  object-fit: contain;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(28, 24, 20);
+}
+.header-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.left-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.right-list {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin: 47px 0;
+}
+.nav-ican {
+  width: 30px;
+  height: 30px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+/* site main */
+
+main {
+  background: linear-gradient(
+      180deg,
+      rgba(1, 1, 2, 0) 37.243%,
+      rgba(1, 1, 2, 0.41) 96.374%
+    ),
+    url(https://img.freepik.com/premium-photo/cup-coffee-coffee-beans-table-dark-background_175390-330.jpg)
+      no-repeat center / cover;
+  width: 100%;
+}
+
+.main-title {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: left;
+  width: 529px;
+  padding-top: 147px;
+}
+
+.main-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Urbanist;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 180%;
+  text-align: left;
+  width: 511px;
+  margin: 32px 0 28px;
+}
+
+.btn {
+  background: rgb(201, 158, 113);
+  width: 202px;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 166px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: chocolate;
+  color: aqua;
+}
+
+.coffee-title {
+  display: flex;
+}
+
+.best-coffee {
+  background: rgb(20, 17, 14);
+}
+.best-coffee .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  padding: 194px 0 140px;
+}
+
+.coffee-img {
+  width: 366px;
+  height: 420px;
+  object-fit: cover;
+  margin-top: 24px;
+}
+
+.coffee-text {
+  color: rgb(201, 158, 113);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 24px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.coffee-title {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  height: 30px;
+}
+
+.story {
+  background: rgb(20, 17, 14);
+  padding-bottom: 140px;
+}
+
+.story-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-img1 {
+  margin-bottom: 32px;
+}
+.story .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-img {
+  width: 298px;
+  height: 302px;
+  object-fit: cover;
+}
+
+.story-rigt {
+  margin: 0 32px;
+}
+.right-img {
+  width: 298px;
+  height: 635px;
+  object-fit: cover;
+}
+
+.story-content {
+  background: rgb(28, 24, 20);
+  width: 510px;
+  height: 635px;
+}
+.story-text {
+  color: rgb(201, 158, 113);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  margin: 120px 356px 13px 56px;
+}
+
+.story-title {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: left;
+  width: 398px;
+  margin: 13px 56px 36px 56px;
+}
+
+.long-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 180%;
+  text-align: left;
+  text-transform: capitalize;
+  width: 398px;
+  margin: 0 56px 118px;
+}
+
+.popular-product {
+  background: rgb(20, 17, 14);
+}
+
+.popular-text {
+  display: flex;
+  justify-content: center;
+  color: rgb(201, 158, 113);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  width: 141px;
+  margin: 0 auto;
+}
+
+.popular-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: center;
+  width: 527px;
+  margin: 13px auto 56px;
+}
+
+.popular_block {
+  background: rgb(18, 19, 21);
+  width: 366px;
+  height: 579px;
+}
+
+.brazil-img {
+  width: 270px;
+  height: 343px;
+  object-fit: cover;
+  margin: 48px 48px 36px 48px;
+}
+
+.product-title {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0 60px 38px;
+  width: 300px;
+}
+
+.shop-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 169px;
+  height: 48px;
+  background: rgb(201, 158, 113);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin: 0 auto;
+  gap: 12px;
+  transition: 0.3s;
+}
+
+.shop-btn:hover {
+  background-color: chocolate;
+  color: aqua;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+.one.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 76px auto 0;
+  transition: 0.3s;
+}
+
+.one.btn:hover {
+  background-color: chocolate;
+  color: aqua;
+}
+
+.coffee-machine{
+  background: rgb(20, 17, 14);
+  padding-top: 140px;
+}
+
+.machine-img{
+  width: 226px;
+height: 359px;
+object-fit: cover;
+}
+
+.machine-title{
+  color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 400;
+line-height: 130%;
+text-align: left;
+width: 501px;
+}
+
+.machine-text{
+  color: rgba(255, 255, 255, 0.8);
+font-size: 16px;
+font-weight: 500;
+line-height: 180%;
+text-align: left;
+text-transform: capitalize;
+width: 576px;
+margin: 36px 0;
+}
+
+.coffee-machine .container{
+  display: flex;
+  justify-content: center;
+  background: rgb(28, 24, 20);
+  gap: 160px;
+  height: 530px;
+}
+
+.machine-right{
+  margin-top: 72px;
+}
+
+.machine-left{
+ margin-top: 85px;
+}
+
+.popular-menu{
+  background: rgb(20, 17, 14);
+  width: 100%;
+  padding: 50px 0 140px;
+}
+
+.menu-block{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(50, 50, 61);
+  width: 565px;
+  height: 120px;
+flex-wrap: wrap;
+
+}
+
+.americano-title{
+  color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+width: 256px;
+}
+
+.americano-text{
+  color: rgb(201, 158, 113);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+text-align: right;
+width: 61px;
+}
+
+.menu-img{
+  width: 72px;
+height: 72px;
+object-fit: cover;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
